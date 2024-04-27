@@ -39,7 +39,32 @@
 		var propertySlider = document.querySelectorAll('.property-slider');
 		var imgPropertySlider = document.querySelectorAll('.img-property-slide');
 		var testimonialSlider = document.querySelectorAll('.testimonial-slider');
+		var organisationSlider = document.querySelectorAll('.organisation-slider');
 		
+		if ( heroSlider.length > 0 ) {
+			var organisationSlider = tns({
+				container: '.organisation-slider',
+				mode: 'carousel',
+				speed: 500,
+				items: 3,
+				autoplay: true,
+				controls: true,
+				nav: false,
+				autoplayButtonOutput: false,
+				controlsContainer: '#organisation-nav',
+				responsive: {
+					0: {
+						items: 1
+					},
+					700: {
+						items: 2
+					},
+					900: {
+						items: 3
+					}
+				}
+			});
+		}
 
 		if ( heroSlider.length > 0 ) {
 			var tnsHeroSlider = tns({
@@ -50,7 +75,7 @@
 				controls: false,
 				nav: false,
 				autoplayButtonOutput: false,
-				controlsContainer: '#hero-nav',
+				// controlsContainer: '#hero-nav',
 			});
 		}
 

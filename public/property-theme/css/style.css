@@ -6184,11 +6184,16 @@ textarea.form-control-lg {
 .border-5 {
   border-width: 5px !important; }
 
+.w-15 {
+  width: 15% !important; }
 .w-25 {
   width: 25% !important; }
 
 .w-50 {
   width: 50% !important; }
+
+.w-65 {
+  width: 65% !important; }
 
 .w-75 {
   width: 75% !important; }
@@ -9798,7 +9803,7 @@ textarea {
   transition: .3s all ease; }
   .btn.btn-primary {
     background: #1A1A1A;
-    color: #fff; }
+    color: #FFD000 !important; }
   .btn:hover {
     top: -2px;
     -webkit-box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
@@ -10234,7 +10239,7 @@ textarea {
       .testimonial-slider-wrap .tns-nav button.tns-nav-active:before {
         background-color: #1A1A1A; }
 
-#testimonial-nav span {
+#testimonial-nav span,#organisation-nav span {
   display: inline-block;
   cursor: pointer;
   padding: 7px 20px;
@@ -10245,7 +10250,8 @@ textarea {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
-  #testimonial-nav span:hover, #testimonial-nav span.active {
+  #testimonial-nav span:hover, #testimonial-nav span.active,
+  #organisation-nav span:hover, #organisation-nav span.active {
     background: #1A1A1A;
     color: #fff !important; }
 
@@ -10376,4 +10382,4 @@ nav[aria-label="breadcrumb"] li:before {
         transform: translate(-50%, -50%); }
       .site-footer .social li a:hover {
         background: #1A1A1A;
-        color: #fff; }
+        color: #FFD000; }

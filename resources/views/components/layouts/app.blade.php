@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Untree.co" />
-        <link rel="shortcut icon" href="favicon.png" />
+        <link rel="icon" type="image/x-icon" href="icon.png">
 
         <meta name="description" content="" />
         <meta name="keywords" content="bootstrap, bootstrap5" />
@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="{{asset("property-theme/css/aos.css")}}" />
         <link rel="stylesheet" href="{{asset("property-theme/css/style.css")}}" />
 
-        <title inertia>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{ config('app.name', 'Laravel') }}</title>
     </head>
     <body>
         @include('livewire.partials.top-nav')

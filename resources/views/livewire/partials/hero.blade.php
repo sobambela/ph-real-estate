@@ -37,7 +37,7 @@
             class="form-control px-4"
             placeholder="Your ZIP code or City. e.g. New York"
           />
-          <a href="#" class="btn btn-primary" style="margin:0 auto;">WE CAN <span class="yellow-text">HELP</span></a>
+          <a href="#" class="btn btn-primary" style="margin:0 auto;">WE CAN <span class="text-white">HELP</span></a>
         </form>
       </div>
     </div>
